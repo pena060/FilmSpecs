@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "893291592749",
+    "firebase_url": "https://filmspecs-50d23.firebaseio.com",
+    "project_id": "filmspecs-50d23",
+    "storage_bucket": "filmspecs-50d23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893291592749:android:b95ed95a2052ac702c4ca4",
+        "android_client_info": {
+          "package_name": "com.example.filmspecsv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893291592749-c23o9v39q3n0tvudt3s5ij8023v58abe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW19NQjunGere4QGJ5ThTYft1_9UxCQA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893291592749-c23o9v39q3n0tvudt3s5ij8023v58abe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

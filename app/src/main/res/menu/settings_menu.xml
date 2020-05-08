@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sign_in_up"
+        android:title="log in/out"
+        android:icon="@drawable/admit_one"
+        app:showAsAction="ifRoom" />
+
+
+
+
+
+</menu>

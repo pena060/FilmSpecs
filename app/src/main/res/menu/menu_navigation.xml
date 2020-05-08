@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/search"
+        android:title="Scan"
+        android:icon="@drawable/barcode_scanner" />
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+    <item
+        android:id="@+id/profile_library"
+        android:title="My Library"
+        android:icon="@drawable/library_image" />
+
+</menu>

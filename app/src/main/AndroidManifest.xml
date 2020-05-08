@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.filmspecsv2">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_film_specs_logo_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+         <!-- add mobile vision dependency and version to metadata -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <activity android:name=".MainActivity" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:label="FilmSpecs" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:screenOrientation="portrait"
+            android:label="Reset Password"
+            android:noHistory="true" />
+        <activity
+            android:name=".SignUpActivity"
+            android:screenOrientation="portrait"
+            android:label="Sign Up"
+            android:noHistory="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:label="Log In" />
+        <activity
+            android:name=".SearchActivity"
+            android:screenOrientation="portrait"
+            android:label="FilmSpecs" />
+        <activity
+            android:name=".ProfileLibraryActivity"
+            android:screenOrientation="portrait"
+            android:label="FilmSpecs" />
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="portrait"
+            android:label="Settings"
+            android:noHistory="true" />
+        <activity
+            android:name=".ScannerActivity"
+            android:screenOrientation="portrait"
+            android:label="Barcode Scanner"
+            android:noHistory="true" />
+        <activity
+            android:name=".MovieDisplayActivity"
+            android:screenOrientation="portrait"
+            android:label="FilmSpecs"/>
+
+
+    </application>
+
+</manifest>

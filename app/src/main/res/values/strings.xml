@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FilmSpecsV2</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="sign_in_out">Sign in/out</string>
+    <string name="home">Home</string>
+    <string name="library">Library</string>
+    <string name="filmspecs">FilmSpecs</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home_tab">HOME TAB</string>
+    <string name="scan_tab">SCAN TAB</string>
+    <string name="sign_up">sign up</string>
+    <string name="you_are_home">YOU ARE HOME</string>
+    <string name="loading_data">Loading Data..</string>
+    <string name="search_movies">Search Movies</string>
+</resources>
